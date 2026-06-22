@@ -60,6 +60,11 @@ def estimate_loss():
     return out 
 
 
+class Head(nn.Module): 
+    """one head self-attention """ 
+    pass 
+
+
 # bigram model 
 class BigramLanguageModel(nn.Module): 
 
